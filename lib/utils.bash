@@ -42,9 +42,9 @@ download_release() {
 	echo "* Installing $TOOL_NAME release $version..."
 
 	for tool in buf protoc-gen-buf-breaking protoc-gen-buf-lint; do
-	  echo "  Installing $tool"
-	  url="${GH_REPO#https://}/cmd/${tool}@v${version}"
-	  GOBIN=$(dirname "$filename") go install "$url"
+		echo "  Installing $tool"
+		url="${GH_REPO#https://}/cmd/${tool}@v${version}"
+		GOBIN=$(dirname "$filename") go install "$url"
 	done
 }
 
