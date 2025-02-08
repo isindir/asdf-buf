@@ -8,7 +8,7 @@
 
 # Dependencies
 
-- `go`, bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
+- `go`, `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
 - `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
 
 # Install
